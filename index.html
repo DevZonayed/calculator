@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="inner">
+            <div class="display">
+                <div class="initial"></div>
+                <div class="main"></div>
+            </div>
+            <div class="calButton">
+                <button onclick="allclere()">AC</button>
+                <button onclick="back()">C</button>
+                <button onclick="btnval(7)">7</button>
+                <button onclick="btnval(8)">8</button>
+                <button onclick="btnval(9)">9</button>
+                <button class="control" onclick="btnval('/')">/</button>
+                <button onclick="btnval(4)">4</button>
+                <button onclick="btnval(5)">5</button>
+                <button onclick="btnval(6)">6</button>
+                <button class="control" onclick="btnval('*')">x</button>
+                <button onclick="btnval(1)">1</button>
+                <button onclick="btnval(2)">2</button>
+                <button onclick="btnval(3)">3</button>
+                <button class="control" onclick="btnval('-')">-</button>
+                <button onclick="btnval(0)">0</button>
+                <button onclick="btnval('.')">.</button>
+                <button class="equal" onclick="equal()">=</button>
+                <button class="control" onclick="btnval('+')">+</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
